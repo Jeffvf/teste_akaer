@@ -1,0 +1,44 @@
+body {
+  background: whitesmoke;
+  padding: 15px;
+}
+
+canvas {
+  border: 1px solid gainsboro;
+  background: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  height: 400px;
+  width: 800px;
+}
+
+.filter {
+  border: 1px solid gainsboro;
+  background: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.items {
+  display: flex;
+  justify-content:center;
+  gap: 15px
+}
+
+span {
+  text-decoration:solid;
+  font-size: 20px;
+}
+
+button {
+  text-decoration: solid;
+  font-size: 15px;
+  padding: 8px;
+}
